@@ -46,9 +46,13 @@ print(Z2)
 
 W3 = np.array([[0.1, 0.3], [0.2, 0.4]])
 B3 = np.array([0.1, 0.2])
+print(W3.shape)
+print(B3.shape)
 
 A3 = np.dot(Z2, W3) + B3
+print(A3)
 Y = identity_function(A3)
+print(Y)
 
 #x = np.arange(-5.0, 5.0, 0.1)
 #y = sigmoid(x)
