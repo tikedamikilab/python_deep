@@ -16,8 +16,9 @@ def relu(x):
     return np.maximum(0, x)
 
 def identity_function(x):
-    return x
-
+    return 
+    
+'''   
 X = np.array([1.0,0.5])
 W1 = np.array([[0.1,0.3,0.5],[0.2,0.4,0.6]])
 B1 = np.array([0.1, 0.2, 0.3])
@@ -53,6 +54,7 @@ A3 = np.dot(Z2, W3) + B3
 print(A3)
 Y = identity_function(A3)
 print(Y)
+'''
 
 #x = np.arange(-5.0, 5.0, 0.1)
 #y = sigmoid(x)
